@@ -18,5 +18,5 @@ PHP 8.0+
 
 ## Changelog
 
-= 1.0.0 =
+### 1.0.0
 * Initial release.
