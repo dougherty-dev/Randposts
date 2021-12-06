@@ -1,7 +1,5 @@
 # Random
 
-Include random posts in WP blog using shortcodes.
-
 ## Description
 
 Include random posts in WP blog using shortcodes.
