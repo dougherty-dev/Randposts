@@ -49,6 +49,7 @@ function build_randposts(WP_Post $post, string $content_type = 'title'): string 
 
 	$post_title = $post->post_title;
 
+	$content = '';
 	if (in_array($content_type, array('title_content', 'content'))) {
 		$content = apply_filters('the_content', get_post_field('post_content', $post->ID));
 	} elseif (in_array($content_type, ['title_excerpt', 'excerpt'])) {
